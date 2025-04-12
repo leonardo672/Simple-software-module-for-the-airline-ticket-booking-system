@@ -103,23 +103,6 @@ The **Airline Database Management System (DBMS)** is a desktop-based application
   - Email and phone  
 📷 *Figure 25–26: Manage/Edit Passengers*
 
----
-
-## ⚙️ Technologies Used
-
-- Frontend: [Specify UI framework or technology, e.g., JavaFX / HTML + CSS + JS / WPF]
-- Backend: [Specify backend language, e.g., Python, Java, PHP]
-- Database: [e.g., MySQL, SQLite, PostgreSQL]
-- Development Tools: [e.g., PyCharm, Visual Studio, XAMPP]
-
----
-
-## 🚀 Getting Started
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/airline-booking-system.git
-
 
 ## ⚙️ Technical Specifications
 
