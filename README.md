@@ -35,16 +35,16 @@ The **Airline Database Management System (DBMS)** is a desktop-based application
 <img src="https://github.com/user-attachments/assets/f9deabe7-53f6-4a7b-91ca-f6021b5b8dce" alt="Interface Main Window" width="300"/>
 
 - **Login Error** – Displays when incorrect data is entered  
-  📷 *Figure 9: Interface "Invalid Credentials"*
+<img src="https://github.com/user-attachments/assets/b49dcdc1-e8e0-44ad-a912-ef1292a4f755" alt="Interface Main Window" width="300"/>
 
 - **Registration Screen** – Sign up as a new user  
-  📷 *Figure 10: Interface "Register"*
+<img src="https://github.com/user-attachments/assets/f9deabe7-53f6-4a7b-91ca-f6021b5b8dce" alt="Interface Main Window" width="300"/>
 
 - **Registration Success** – Confirmation message  
-  📷 *Figure 11: Interface "User Registered"*
+<img src="https://github.com/user-attachments/assets/f9deabe7-53f6-4a7b-91ca-f6021b5b8dce" alt="Interface Main Window" width="300"/>
 
 - **Successful Login** – Welcome message for the user  
-  📷 *Figure 12: Interface "Welcome User"*
+<img src="https://github.com/user-attachments/assets/f9deabe7-53f6-4a7b-91ca-f6021b5b8dce" alt="Interface Main Window" width="300"/>
 
 ### 🧭 Main Interface
 <img src="https://github.com/user-attachments/assets/30690524-84ee-493b-bf9d-d14e200bf164" alt="Interface Main Window" width="600"/>
