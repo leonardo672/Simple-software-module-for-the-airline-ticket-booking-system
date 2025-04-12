@@ -2,96 +2,124 @@
 
 The **Airline Database Management System (DBMS)** is a desktop-based application developed in **Python 3.11**, utilizing **Tkinter** and **PyQt5** to deliver an intuitive and feature-rich graphical interface. This system is designed to manage all aspects of airline operations — from **user registration** and **flight scheduling** to **seat allocation**, **ticket booking**, **payment processing**, and **passenger records** — powered by a robust **Microsoft Access database** backend.
 
----
+## 📌 Features
 
-## 🧭 Admin & User Interfaces
+- **User Authentication**
+  - Login and registration interfaces with error handling
+  - Welcome messages on successful login
+- **Flight Management**
+  - View, add, and edit flight details
+  - Manage departure/arrival times, airport codes, seat capacity
+- **Booking Management**
+  - Create and manage bookings
+  - View booking statuses, prices, and passenger-flight relationships
+- **Seat Management**
+  - Assign and manage airplane seats
+  - Support for multiple seat classes (Economy, Business, First)
+- **Payment Management**
+  - Track payments for each booking
+  - Payment methods, amounts, and status handling
+- **Passenger Management**
+  - Store detailed passenger data (name, passport, birthdate, contact info)
+- **Admin Dashboard**
+  - Centralized control panel for managing all system modules
 
-### 🔐 User Authentication
+## 🖥️ Interface Overview
 
-#### 🧍 Login
-<img src="images/login.png" alt="Login Screen" width="600"/>
+### 🔐 Authentication Screens
+- **Login Screen** – Enter credentials to access the system  
+  📷 *Figure 8: Interface "Login"*
 
-#### ❌ Invalid Login Attempt
-<img src="images/invalid_login.png" alt="Invalid Login" width="600"/>
+- **Login Error** – Displays when incorrect data is entered  
+  📷 *Figure 9: Interface "Invalid Credentials"*
 
-#### 📝 User Registration
-<img src="images/register.png" alt="User Registration" width="600"/>
+- **Registration Screen** – Sign up as a new user  
+  📷 *Figure 10: Interface "Register"*
 
-#### ✅ Registration Success
-<img src="images/registration_success.png" alt="Registration Success" width="600"/>
+- **Registration Success** – Confirmation message  
+  📷 *Figure 11: Interface "User Registered"*
 
-#### 👋 Welcome Interface
-<img src="images/welcome.png" alt="Welcome Message" width="600"/>
+- **Successful Login** – Welcome message for the user  
+  📷 *Figure 12: Interface "Welcome User"*
 
----
+### 🧭 Main Dashboard
 
-## 🎛️ System Modules
-
-### 📋 Admin Dashboard
-Central control panel for managing data across the system.
-
-<img src="images/main_dashboard.png" alt="Admin Dashboard" width="600"/>
-
----
-
-### ✈️ Flight Management
-
-#### ➕ Add / Update Flights
-<img src="images/manage_flights.png" alt="Manage Flights" width="600"/>
-
-#### ✏️ Edit Flight Information
-<img src="images/edit_flight.png" alt="Edit Flight" width="600"/>
-
-#### 📑 Flight Data Overview
-<img src="images/flight_data_overview.png" alt="Flight Data" width="600"/>
-
----
-
-### 📅 Booking System
-
-#### 📖 Manage Bookings
-<img src="images/manage_bookings.png" alt="Manage Bookings" width="600"/>
-
-#### ✏️ Edit Booking Information
-<img src="images/edit_booking.png" alt="Edit Booking" width="600"/>
-
-#### 📊 Booking Data Summary
-<img src="images/booking_data.png" alt="Booking Data" width="600"/>
+- Access to key system modules: Flights, Bookings, Seats, Payments, Passengers, and Users  
+  📷 *Figure 13: Interface "Main Window"*
 
 ---
 
-### 💺 Seat Allocation
+## ✈️ Flight Management
 
-#### 💼 Manage Aircraft Seating
-<img src="images/manage_seats.png" alt="Manage Seats" width="600"/>
-
-#### ✏️ Edit Seat Layout
-<img src="images/edit_seats.png" alt="Edit Seats" width="600"/>
-
-#### 📋 Seating Records
-<img src="images/seat_data.png" alt="Seat Data" width="600"/>
-
----
-
-### 💳 Payment Processing
-
-#### 🧾 Manage Payments
-<img src="images/manage_payments.png" alt="Manage Payments" width="600"/>
-
-#### ✏️ Edit Transactions
-<img src="images/edit_payments.png" alt="Edit Payments" width="600"/>
-
-#### 📈 Payment Data
-<img src="images/payment_data.png" alt="Payment Records" width="600"/>
+- Flight listing with:
+  - Flight code
+  - Airline
+  - Departure and arrival info
+  - Scheduled times
+  - Seat availability  
+📷 *Figure 14: Interface "Manage Flights"*  
+📷 *Figure 15: Interface "Add/Edit Flights"*
 
 ---
 
-### 🧍 Passenger Database
+## 📑 Booking Management
 
-#### 👥 Passenger Records Management
-<img src="images/manage_passengers.png" alt="Manage Passengers" width="600"/>
+- View and manage:
+  - Booking code
+  - Passenger and flight IDs
+  - Booking date and status
+  - Price  
+📷 *Figure 16: Interface "Manage Bookings"*  
+📷 *Figure 17–18: Edit/Add Booking*
 
 ---
+
+## 💺 Seat Management
+
+- Control seat assignments per flight:
+  - Seat ID
+  - Seat number
+  - Class (Economy, Business, First)  
+📷 *Figure 19–21: Manage/Edit/Add Seats*
+
+---
+
+## 💳 Payment Management
+
+- Record and manage payments:
+  - Linked booking
+  - Amount
+  - Payment method and status  
+📷 *Figure 22–24: Manage/Edit/Add Payments*
+
+---
+
+## 👤 Passenger Management
+
+- Store passenger details:
+  - Name, surname
+  - Birthdate
+  - Passport number
+  - Email and phone  
+📷 *Figure 25–26: Manage/Edit Passengers*
+
+---
+
+## ⚙️ Technologies Used
+
+- Frontend: [Specify UI framework or technology, e.g., JavaFX / HTML + CSS + JS / WPF]
+- Backend: [Specify backend language, e.g., Python, Java, PHP]
+- Database: [e.g., MySQL, SQLite, PostgreSQL]
+- Development Tools: [e.g., PyCharm, Visual Studio, XAMPP]
+
+---
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/airline-booking-system.git
+
 
 ## ⚙️ Technical Specifications
 
