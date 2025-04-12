@@ -1,5 +1,3 @@
-![image](https://github.com/user-attachments/assets/00ad64b8-c4fa-40a5-b6f7-4c34ffec5ee5)# ✈️ Airline Database Management System (DBMS)
-
 The **Airline Database Management System (DBMS)** is a desktop-based application developed in **Python 3.11**, utilizing **Tkinter** and **PyQt5** to deliver an intuitive and feature-rich graphical interface. This system is designed to manage all aspects of airline operations — from **user registration** and **flight scheduling** to **seat allocation**, **ticket booking**, **payment processing**, and **passenger records** — powered by a robust **Microsoft Access database** backend.
 
 ## 📌 Features
@@ -61,12 +59,12 @@ The **Airline Database Management System (DBMS)** is a desktop-based application
   - Seat availability
     
  ### Interface "Manage Flights"
-  <img src="https://github.com/user-attachments/assets/30690524-84ee-493b-bf9d-d14e200bf164" alt="Interface Main Window" width="600"/>
+  <img src="https://github.com/user-attachments/assets/50a5e0fd-0dc8-4c8b-ab30-87c00b0e70a9" alt="Interface Main Window" width="600"/>
 
  ### Interface "Add/Edit Flights"
-  <img src="https://github.com/user-attachments/assets/6d57173c-2d27-4422-936c-4d34450ce43f" alt="Interface Main Window" width="600"/>
+  <img src="https://github.com/user-attachments/assets/abf96565-8299-4cfe-a9a3-91f2d29d4a82" alt="Interface Main Window" width="600"/>
 
-  <img src="https://github.com/user-attachments/assets/91555ee4-34e1-4e00-a1f6-1b15167d7fb9" alt="Interface Main Window" width="600"/>
+  <img src="https://github.com/user-attachments/assets/d1375473-3fce-44b6-a362-9782f94d7f01" alt="Interface Main Window" width="600"/>
 
 ---
 
