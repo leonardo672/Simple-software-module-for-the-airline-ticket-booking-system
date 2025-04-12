@@ -25,7 +25,7 @@ class show_aviary:
             self.departure_time_icon = ImageTk.PhotoImage(Image.open("assets/Авиарейсы/время_отправления.png").resize((20, 20)))
             self.arrival_time_icon = ImageTk.PhotoImage(Image.open("assets/Авиарейсы/время_прибытия.png").resize((20, 20)))
             self.number_of_seats_icon = ImageTk.PhotoImage(Image.open("assets/Авиарейсы/количество_мест.png").resize((20, 20)))
-            self.booking_icon = ImageTk.PhotoImage(Image.open("assets/OIP.jpeg").resize((100, 100)))
+            self.booking_icon = ImageTk.PhotoImage(Image.open("assets/User_Icon.jpeg").resize((100, 100)))
             print("Иконки успешно загружены.")
         except Exception as e:
             print(f"Ошибка загрузки иконок: {e}")

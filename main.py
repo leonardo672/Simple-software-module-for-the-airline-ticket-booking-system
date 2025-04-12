@@ -26,7 +26,7 @@ def main():
     root.config(bg="#ffffff")
 
     try:
-        background_image = Image.open("assets/background.png")
+        background_image = Image.open("assets/Main_Interface.png")
         background_image = background_image.resize((1200, 800))
         background_photo = ImageTk.PhotoImage(background_image)
     except Exception as e:

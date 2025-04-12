@@ -23,7 +23,7 @@ class show_airport_links:
             self.airport_id_icon = ImageTk.PhotoImage(Image.open("assets/Связь_между_аэропортами_и_рейсами/аэропорт_id.png").resize((40, 40)))
             self.airport_type_icon = ImageTk.PhotoImage(Image.open("assets/Связь_между_аэропортами_и_рейсами/тип_аэропорта.png").resize((40, 40)))
             self.booking_icon = ImageTk.PhotoImage(Image.open("assets/Связь_между_аэропортами_и_рейсами/icons8_hub_100px_2.png").resize((100, 100)))
-            self.user_icon = ImageTk.PhotoImage(Image.open("assets/OIP.jpeg").resize((100, 100)))
+            self.user_icon = ImageTk.PhotoImage(Image.open("assets/User_Icon.jpeg").resize((100, 100)))
             print("Иконки успешно загружены.")
         except Exception as e:
             print(f"Ошибка загрузки иконок: {e}")

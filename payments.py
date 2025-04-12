@@ -25,7 +25,7 @@ class show_payments:
             self.payment_method_icon = ImageTk.PhotoImage(Image.open("assets/Оплаты/способ_оплаты.png").resize((30, 30)))
             self.payment_status_icon = ImageTk.PhotoImage(Image.open("assets/Оплаты/статус_оплаты.png").resize((30, 30)))
             self.booking_icon = ImageTk.PhotoImage(Image.open("assets/Оплаты/vector-payment-icon.jpg").resize((100, 100)))
-            self.user_icon = ImageTk.PhotoImage(Image.open("assets/OIP.jpeg").resize((40, 40)))
+            self.user_icon = ImageTk.PhotoImage(Image.open("assets/User_Icon.jpeg").resize((40, 40)))
             print("Иконки успешно загружены.")
         except Exception as e:
             print(f"Ошибка загрузки иконок: {e}")

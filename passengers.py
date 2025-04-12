@@ -25,7 +25,7 @@ class show_passengers:
             self.email_icon = ImageTk.PhotoImage(Image.open("assets/Пассажиры/email.png").resize((30, 30)))
             self.phone_icon = ImageTk.PhotoImage(Image.open("assets/Пассажиры/телефон.png").resize((30, 30)))
             self.booking_icon = ImageTk.PhotoImage(Image.open("assets/Пассажиры/passenger-icon-11.png").resize((100, 100)))
-            self.user_icon = ImageTk.PhotoImage(Image.open("assets/OIP.jpeg").resize((40, 40)))
+            self.user_icon = ImageTk.PhotoImage(Image.open("assets/User_Icon.jpeg").resize((40, 40)))
             print("Иконки успешно загружены.")
         except Exception as e:
             print(f"Ошибка загрузки иконок: {e}")

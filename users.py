@@ -21,7 +21,7 @@ class UsersApp:
             self.last_name_icon = ImageTk.PhotoImage(Image.open("assets/Пользователи/Фамилия.png").resize((30, 30)))
             self.email_icon = ImageTk.PhotoImage(Image.open("assets/Пользователи/Электронная_почта.png").resize((30, 30)))
             self.birthdate_icon = ImageTk.PhotoImage(Image.open("assets/Пользователи/Дата_рождения.png").resize((30, 30)))
-            self.user_icon = ImageTk.PhotoImage(Image.open("assets/OIP.jpeg").resize((100, 100)))
+            self.user_icon = ImageTk.PhotoImage(Image.open("assets/User_Icon.jpeg").resize((100, 100)))
             print("Иконки успешно загружены.")
         except Exception as e:
             print(f"Ошибка загрузки иконок: {e}")
