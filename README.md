@@ -110,7 +110,13 @@ The **Airline Database Management System (DBMS)** is a desktop-based application
   - Linked booking
   - Amount
   - Payment method and status  
-📷 *Figure 22–24: Manage/Edit/Add Payments*
+
+### Interface "Manage/Edit/Add Payments"
+  <img src="https://github.com/user-attachments/assets/d2dd6b85-43c8-4252-8f58-5d378013f5ec" alt="Interface Main Window" width="600"/>
+  
+  <img src="https://github.com/user-attachments/assets/28e1082e-af00-464b-a969-9385d058fc74" alt="Interface Main Window" width="600"/>
+
+  <img src="https://github.com/user-attachments/assets/f2840866-d533-4904-9745-5fd230d3170a" alt="Interface Main Window" width="600"/>
 
 ---
 
@@ -121,7 +127,13 @@ The **Airline Database Management System (DBMS)** is a desktop-based application
   - Birthdate
   - Passport number
   - Email and phone  
-📷 *Figure 25–26: Manage/Edit Passengers*
+
+### Interface "Manage/Edit Passengers"
+  <img src="https://github.com/user-attachments/assets/17ff4320-8cee-420a-8977-5c7a532abb66" alt="Interface Main Window" width="600"/>
+  
+  <img src="https://github.com/user-attachments/assets/8e082a3e-82b0-47c7-acbf-0c81997c8122" alt="Interface Main Window" width="600"/>
+
+  <img src="https://github.com/user-attachments/assets/cd7a5ae9-9887-4e7f-87cf-fe334312643c" alt="Interface Main Window" width="600"/>
 
 ---
 
@@ -135,8 +147,12 @@ This module allows system administrators to manage the connections between fligh
   - Arrival Airport
   - Associated Flight
 
-📷 *Figure 27: Interface "Manage Airport-Flight Relationships"*  
-📷 *Figure 28: Interface "Add/Edit Airport-Flight Relationship"*
+### Interface "Manage/Edit Airport-Flight Relationship"
+  <img src="https://github.com/user-attachments/assets/8cace9ce-e6ae-4716-94c6-be43c31ae02b" alt="Interface Main Window" width="600"/>
+  
+  <img src="https://github.com/user-attachments/assets/b6dbf150-8df0-408f-aeaf-04de4a6fedac" alt="Interface Main Window" width="600"/>
+
+  <img src="https://github.com/user-attachments/assets/e84610bf-83b0-4eca-9ae7-3dde24bdce35" alt="Interface Main Window" width="600"/>
 
 ---
 
