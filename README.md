@@ -77,9 +77,15 @@ The **Airline Database Management System (DBMS)** is a desktop-based application
   - Passenger and flight IDs
   - Booking date and status
   - Price  
-📷 *Figure 16: Interface "Manage Bookings"*  
-📷 *Figure 17–18: Edit/Add Booking*
+📷 *Figure 16: Interface "Manage Bookings"*
+ ### Interface "Manage Flights"
+  <img src="https://github.com/user-attachments/assets/e35da353-59c7-4116-b174-4e503ff2b776" alt="Interface Main Window" width="600"/>
 
+ ### Interface "Edit/Add Booking"
+  <img src="https://github.com/user-attachments/assets/ced9fe7a-8754-4d6d-ac70-a78182c3ad4d" alt="Interface Main Window" width="600"/>
+
+  <img src="https://github.com/user-attachments/assets/c653ace4-2d0f-4ba9-a17c-f93deec84510" alt="Interface Main Window" width="600"/>
+  
 ---
 
 ## 💺 Seat Management
