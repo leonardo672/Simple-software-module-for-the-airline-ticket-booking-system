@@ -49,8 +49,6 @@ The **Airline Database Management System (DBMS)** is a desktop-based application
 ### 🧭 Main Interface
 <img src="https://github.com/user-attachments/assets/30690524-84ee-493b-bf9d-d14e200bf164" alt="Interface Main Window" width="600"/>
 
-
-
 ---
 
 ## ✈️ Flight Management
@@ -60,14 +58,15 @@ The **Airline Database Management System (DBMS)** is a desktop-based application
   - Airline
   - Departure and arrival info
   - Scheduled times
-  - Seat availability  
- *Interface "Manage Flights"*
-<img src="https://github.com/user-attachments/assets/30690524-84ee-493b-bf9d-d14e200bf164" alt="Interface Main Window" width="600"/>
+  - Seat availability
+    
+ ### Interface "Manage Flights"
+  <img src="https://github.com/user-attachments/assets/30690524-84ee-493b-bf9d-d14e200bf164" alt="Interface Main Window" width="600"/>
 
- *Interface "Add/Edit Flights"*
-<img src="https://github.com/user-attachments/assets/6d57173c-2d27-4422-936c-4d34450ce43f" alt="Interface Main Window" width="600"/>
+ ### Interface "Add/Edit Flights"
+  <img src="https://github.com/user-attachments/assets/6d57173c-2d27-4422-936c-4d34450ce43f" alt="Interface Main Window" width="600"/>
 
-<img src="https://github.com/user-attachments/assets/91555ee4-34e1-4e00-a1f6-1b15167d7fb9" alt="Interface Main Window" width="600"/>
+  <img src="https://github.com/user-attachments/assets/91555ee4-34e1-4e00-a1f6-1b15167d7fb9" alt="Interface Main Window" width="600"/>
 
 ---
 
