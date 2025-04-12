@@ -1,6 +1,13 @@
+# ✈️ Airline Database Management System (DBMS)
 
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
+![GUI](https://img.shields.io/badge/GUI-Tkinter%20%7C%20PyQt5-green)
+![Database](https://img.shields.io/badge/Database-MS_Access-0078D7?logo=microsoft-access)
+![Platform](https://img.shields.io/badge/Platform-Desktop-lightgrey)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![PyCharm](https://img.shields.io/badge/IDE-PyCharm-000000?logo=pycharm)
 
-The **Airline Database Management System (DBMS)** is a desktop-based application developed in **Python 3.11**, utilizing **Tkinter** and **PyQt5** to deliver an intuitive and feature-rich graphical interface. This system is designed to manage all aspects of airline operations — from **user registration** and **flight scheduling** to **seat allocation**, **ticket booking**, **payment processing**, and **passenger records** — powered by a robust **Microsoft Access database** backend.
+The **Airline Database Management System (DBMS)** is a desktop-based application developed in **Python 3.11**, utilizing **Tkinter** and **PyQt5** to deliver a graphical interface. This system manages key operations such as user registration, flight scheduling, seat allocation, ticket booking, payment processing, and passenger records, using a **Microsoft Access database**.
 
 ## 📌 Features
 
