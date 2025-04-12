@@ -32,7 +32,7 @@ The **Airline Database Management System (DBMS)** is a desktop-based application
 
 ### 🔐 Authentication Screens
 - **Login Screen** – Enter credentials to access the system  
-  📷 *Figure 8: Interface "Login"*
+<img src="https://github.com/user-attachments/assets/f9deabe7-53f6-4a7b-91ca-f6021b5b8dce" alt="Interface Main Window" width="600"/>
 
 - **Login Error** – Displays when incorrect data is entered  
   📷 *Figure 9: Interface "Invalid Credentials"*
