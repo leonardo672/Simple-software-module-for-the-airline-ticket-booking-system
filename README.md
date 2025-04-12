@@ -49,6 +49,7 @@ The **Airline Database Management System (DBMS)** is a desktop-based application
 ### 🧭 Main Interface
 
 <img src="https://github.com/user-attachments/assets/30690524-84ee-493b-bf9d-d14e200bf164" alt="Interface Main Window" width="600"/>
+
 📷 <em>Interface "Main Window"</em>
 
 ---
