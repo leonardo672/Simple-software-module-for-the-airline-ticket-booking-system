@@ -1,135 +1,106 @@
-# ✈️ Airline Booking System
+# ✈️ Airline Database Management System (DBMS)
 
-The **Airline Booking System** is a desktop-based application built with Python 3.11, combining **Tkinter** and **PyQt5** for a rich GUI experience. It enables flight booking, user registration, payment processing, and administrative control over core airline operations.
+The **Airline Database Management System (DBMS)** is a desktop-based application developed in **Python 3.11**, utilizing **Tkinter** and **PyQt5** to deliver an intuitive and feature-rich graphical interface. This system is designed to manage all aspects of airline operations — from **user registration** and **flight scheduling** to **seat allocation**, **ticket booking**, **payment processing**, and **passenger records** — powered by a robust **Microsoft Access database** backend.
 
 ---
 
-## 🔐 Authentication & User Management
+## 🧭 Admin & User Interfaces
 
-### 🧍‍♂️ Login
+### 🔐 User Authentication
+
+#### 🧍 Login
 <img src="images/login.png" alt="Login Screen" width="600"/>
 
-Secure login interface for registered users.
-
----
-
-### ❌ Invalid Login
+#### ❌ Invalid Login Attempt
 <img src="images/invalid_login.png" alt="Invalid Login" width="600"/>
 
-Error prompt for invalid credentials.
-
----
-
-### 📝 Registration
+#### 📝 User Registration
 <img src="images/register.png" alt="User Registration" width="600"/>
 
-User sign-up form with data validation.
+#### ✅ Registration Success
+<img src="images/registration_success.png" alt="Registration Success" width="600"/>
 
----
-
-### ✅ Registration Success
-<img src="images/registration_success.png" alt="Registration Successful" width="600"/>
-
-Success message after account creation.
-
----
-
-### 👋 Welcome Screen
+#### 👋 Welcome Interface
 <img src="images/welcome.png" alt="Welcome Message" width="600"/>
 
-Personalized dashboard welcome after login.
-
 ---
 
-## 🧭 Admin Dashboard
+## 🎛️ System Modules
 
-### 📊 Main Admin Panel
-<img src="images/main_dashboard.png" alt="Main Dashboard" width="600"/>
+### 📋 Admin Dashboard
+Central control panel for managing data across the system.
 
-Hub for managing flights, bookings, seats, payments, and passengers.
+<img src="images/main_dashboard.png" alt="Admin Dashboard" width="600"/>
 
 ---
-
-## 🛠️ Core Functional Modules
 
 ### ✈️ Flight Management
-- **Manage Flights**
-  <img src="images/manage_flights.png" alt="Manage Flights" width="600"/>
 
-- **Edit Flight Info**
-  <img src="images/edit_flight.png" alt="Edit Flight" width="600"/>
+#### ➕ Add / Update Flights
+<img src="images/manage_flights.png" alt="Manage Flights" width="600"/>
 
-- **Flight Data Overview**
-  <img src="images/flight_data_overview.png" alt="Flight Data Overview" width="600"/>
+#### ✏️ Edit Flight Information
+<img src="images/edit_flight.png" alt="Edit Flight" width="600"/>
 
----
-
-### 📅 Booking Management
-- **Manage Bookings**
-  <img src="images/manage_bookings.png" alt="Manage Bookings" width="600"/>
-
-- **Edit Bookings**
-  <img src="images/edit_booking.png" alt="Edit Booking" width="600"/>
-
-- **Booking Summary**
-  <img src="images/booking_data.png" alt="Booking Data" width="600"/>
+#### 📑 Flight Data Overview
+<img src="images/flight_data_overview.png" alt="Flight Data" width="600"/>
 
 ---
 
-### 💺 Seat Configuration
-- **Aircraft Seating**
-  <img src="images/manage_seats.png" alt="Manage Seats" width="600"/>
+### 📅 Booking System
 
-- **Edit Seats**
-  <img src="images/edit_seats.png" alt="Edit Seats" width="600"/>
+#### 📖 Manage Bookings
+<img src="images/manage_bookings.png" alt="Manage Bookings" width="600"/>
 
-- **Seating Layout**
-  <img src="images/seat_data.png" alt="Seat Data" width="600"/>
+#### ✏️ Edit Booking Information
+<img src="images/edit_booking.png" alt="Edit Booking" width="600"/>
+
+#### 📊 Booking Data Summary
+<img src="images/booking_data.png" alt="Booking Data" width="600"/>
+
+---
+
+### 💺 Seat Allocation
+
+#### 💼 Manage Aircraft Seating
+<img src="images/manage_seats.png" alt="Manage Seats" width="600"/>
+
+#### ✏️ Edit Seat Layout
+<img src="images/edit_seats.png" alt="Edit Seats" width="600"/>
+
+#### 📋 Seating Records
+<img src="images/seat_data.png" alt="Seat Data" width="600"/>
 
 ---
 
 ### 💳 Payment Processing
-- **Payment Manager**
-  <img src="images/manage_payments.png" alt="Manage Payments" width="600"/>
 
-- **Update Transactions**
-  <img src="images/edit_payments.png" alt="Edit Payments" width="600"/>
+#### 🧾 Manage Payments
+<img src="images/manage_payments.png" alt="Manage Payments" width="600"/>
 
-- **Payment Data Summary**
-  <img src="images/payment_data.png" alt="Payment Data" width="600"/>
+#### ✏️ Edit Transactions
+<img src="images/edit_payments.png" alt="Edit Payments" width="600"/>
 
----
-
-### 🧍 Passenger Management
-- **Passenger Records**
-  <img src="images/manage_passengers.png" alt="Manage Passengers" width="600"/>
-
-View, add, and update passenger information.
+#### 📈 Payment Data
+<img src="images/payment_data.png" alt="Payment Records" width="600"/>
 
 ---
 
-## 🌟 Key Features
+### 🧍 Passenger Database
 
-- 🔒 User Authentication (Login/Register)
-- ✈️ Real-time Flight & Seat Management
-- 💺 Dynamic Booking and Seat Allocation
-- 💳 Integrated Payment Handling
-- 📊 Admin Dashboard with Edit Capabilities
-- 🎨 GUI built with **Tkinter** and **PyQt5**
-- 🗃 Database powered by **Microsoft Access (.accdb)**
+#### 👥 Passenger Records Management
+<img src="images/manage_passengers.png" alt="Manage Passengers" width="600"/>
 
 ---
 
-## ⚙️ Tech Stack
+## ⚙️ Technical Specifications
 
-| Layer               | Technology            |
-|---------------------|------------------------|
-| 👨‍💻 Programming     | Python 3.11             |
-| 🖼 GUI Frameworks     | Tkinter, PyQt5          |
-| 🗂 Database          | Microsoft Access (.accdb) |
-| 🧩 Modules Used     | `pyodbc`, `tkinter`, `PyQt5`, `datetime`, `os` |
-
-
-
+| Component            | Description                        |
+|----------------------|------------------------------------|
+| 🐍 Language           | Python 3.11                        |
+| 🖼 GUI Frameworks     | Tkinter, PyQt5                     |
+| 🗃 Database           | Microsoft Access (.accdb via pyodbc) |
+| 📦 Key Libraries      | `tkinter`, `PyQt5`, `pyodbc`, `datetime`, `os` |
+| 🖥️ System Type        | Desktop-based Database Management System |
 
 
