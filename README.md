@@ -4,152 +4,102 @@
 ![Tkinter](https://img.shields.io/badge/GUI-Tkinter%2FPyQt5-green)
 ![Database](https://img.shields.io/badge/Database-MS_Access-0078D7)
 
-## 🌟 Core Features
+# ✈️ Airline Booking System
 
-## Booking Management System
+The **Airline Booking System** is a comprehensive platform designed to streamline flight reservations, passenger management, and payment processing. With a secure login system and powerful administrative tools, the system offers a user-friendly interface for both end-users and airline staff.
 
-### Core Modules
+## 🔐 Authentication & User Management
 
-#### 1. Flight Management (`aviary.py`)
-**Features:**
-- Complete flight schedule control
-- Real-time status updates
-- Capacity monitoring
+### Login
+- **Figure 8** – User login screen  
+  Enables secure access to the system using verified credentials.
 
-**Data Attributes:**
-| Field | Type | Example |
-|-------|------|---------|
-| Flight ID | Primary Key | Код 1 |
-| Airline | String | Аэроболт |
-| Departure | DateTime | 2023-10-25 08:30:00 |
-| Arrival | DateTime | 2023-10-25 11:45:00 |
-| Seats Available | Integer | 150 |
+### Invalid Login
+- **Figure 9** – Invalid login attempt  
+  Displays an error message when credentials are incorrect.
 
-**Interface:**
-![Flight Management Interface](screenshots/flight_management.png)
+### Registration
+- **Figure 10** – New user registration  
+  Allows new users to create an account with required personal information.
 
----
+### Successful Registration
+- **Figure 11** – Registration success confirmation  
+  Notifies users that their account has been successfully created.
 
-#### 2. Booking System (`bookings.py`)
-**Features:**
-- End-to-end reservation processing
-- Status tracking (Confirmed/Pending)
-- Price calculation
+### Welcome Screen
+- **Figure 12** – Personalized welcome message  
+  Displays a greeting to the authenticated user.
 
-**Data Attributes:**
-| Field | Type | Example |
-|-------|------|---------|
-| Booking ID | Primary Key | Код 0 |
-| Passenger ID | Foreign Key | 101 |
-| Flight ID | Foreign Key | 1 |
-| Booking Date | DateTime | 2023-10-20 10:15:00 |
-| Status | String | Подтверждено |
-| Price | Decimal | 50000 |
+## 🧭 Main Dashboard
 
-**Interface:**
-![Booking Management Interface](screenshots/booking_management.png)
+### Main Window
+- **Figure 13** – Central control panel  
+  Provides access to key administrative modules.
 
----
+## 🛠️ Administrative Interfaces
 
-#### 3. Seat Management (`seats.py`)
-**Features:**
-- Visual seat mapping
-- Class-based allocation
-- Real-time availability
+### ✈️ Flight Management
+- **Figure 14** – Manage Flights  
+  Add, update, or delete flight records including destinations, times, and aircraft.
 
-**Data Attributes:**
-| Field | Type | Example |
-|-------|------|---------|
-| Seat ID | Primary Key | Код 1 |
-| Flight ID | Foreign Key | 1 |
-| Seat Number | String | 12А |
-| Class | String | Бизнес |
+- **Figure 14 (Edit)** – Modify Flight Information  
+  Edit existing flight details with real-time data integrity.
 
-**Interface:**
-![Seat Management Interface](screenshots/seat_management.png)
+- **Figure 15** – Application Data Overview  
+  Centralized data hub for reviewing flight schedules and statuses.
 
----
+### 📅 Booking Management
+- **Figure 16** – Manage Bookings  
+  Track and manage individual or group reservations.
 
-#### 4. Payment Processing (`payments.py`)
-**Features:**
-- Multiple payment methods
-- Transaction recording
-- Status tracking
+- **Figure 17** – Edit Bookings  
+  Update passenger reservations, flight assignments, or ticket status.
 
-**Data Attributes:**
-| Field | Type | Example |
-|-------|------|---------|
-| Payment ID | Primary Key | Код 1 |
-| Booking ID | Foreign Key | D1-1 |
-| Amount | Decimal | 25000 |
-| Payment Date | DateTime | 2023-10-20 10:30:00 |
-| Method | String | Карта |
-| Status | String | Отдаленно |
+- **Figure 18** – Booking Data Center  
+  Comprehensive view of all booking records in the system.
 
-**Interface:**
-![Payment Interface](screenshots/payment_interface.png)
+### 💺 Seat Management
+- **Figure 19** – Manage Aircraft Seats  
+  Define and manage seat layouts and availability per aircraft.
+
+- **Figure 20** – Edit Seat Allocations  
+  Update seat assignments based on passenger bookings.
+
+- **Figure 21** – Seat Configuration Data  
+  Overview of aircraft seating plans and configurations.
+
+### 💳 Payment Management
+- **Figure 22** – Manage Payments  
+  View and process customer payments and refunds.
+
+- **Figure 23** – Edit Payment Records  
+  Modify payment details in case of transaction corrections.
+
+- **Figure 24** – Financial Overview  
+  Analytical view of payment histories and transactions.
+
+### 🧍 Passenger Management
+- **Figure 25** – Manage Passengers  
+  Access and update individual passenger profiles and travel histories.
 
 ---
 
-### Administrative Modules
+## 📌 Features Summary
 
-#### 1. Passenger Management (`passengers.py`)
-**Features:**
-- Complete passenger profiles
-- Document verification
-- Booking history
+- User registration & authentication  
+- Admin dashboard for full CRUD operations  
+- Real-time seat and flight availability  
+- Integrated booking and payment modules  
+- Intuitive UI with error handling
 
-**Data Attributes:**
-| Field | Type | Example |
-|-------|------|---------|
-| Passenger ID | Primary Key | Код 1 |
-| First Name | String | Иван |
-| Last Name | String | Иванов |
-| Passport | String | 1234567890 |
-| Email | String | hanovo@example.com |
+## 🚀 Technologies Used
 
-**Interface:**
-![Passenger Management](screenshots/passenger_management.png)
+- **Frontend:** Tkinter (Python GUI)  
+- **Backend:** SQLite / MySQL  
+- **Language:** Python  
+- **Modules:** `tkinter`, `sqlite3`, `datetime`, `os`, and others
 
 ---
 
-#### 2. User Administration (`users.py`)
-**Features:**
-- Role-based access
-- Account management
-- System permissions
+## 📂 Project Structure
 
-**Data Attributes:**
-| Field | Type | Example |
-|-------|------|---------|
-| User ID | Primary Key | Код 59 |
-| First Name | String | Иван |
-| Last Name | String | Иванов |
-| Email | String | user@example.com |
-
-**Interface:**
-![User Management](screenshots/user_management.png)
-
-### Technical Highlights
-- Python 3.11's speed optimizations
-- Tkinter/PyQt5 hybrid interface
-- ACID-compliant Access transactions
-
-## 📸 Screenshots
-
-| Module | Screenshot | Description |
-|--------|------------|-------------|
-| **Login** | ![Login Window](screenshots/login.png) | Secure PyQt5 authentication |
-| **Dashboard** | ![Main Interface](screenshots/dashboard.png) | Central control panel |
-| **Flight Booking** | ![Booking Form](screenshots/booking.png) | Ticket reservation screen |
-| **Seat Map** | ![Seat Selection](screenshots/seats.png) | Interactive cabin layout |
-
-*Place screenshots in `/screenshots` folder with these exact names for auto-display.*
-
-## 🛠️ Installation
-
-### Prerequisites
-1. **Python 3.11** (64-bit recommended)
-   ```powershell
-   # Windows installation
-   winget install Python.Python.3.11
