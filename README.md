@@ -21,6 +21,9 @@ The **Airline Database Management System (DBMS)** is a desktop-based application
   - Payment methods, amounts, and status handling
 - **Passenger Management**
   - Store detailed passenger data (name, passport, birthdate, contact info)
+- **Airport-Flight Relationship Management**
+  - Manage associations between flights and airports
+  - Link departure and arrival airport codes to flights
 - **Admin Dashboard**
   - Centralized control panel for managing all system modules
 
@@ -44,7 +47,7 @@ The **Airline Database Management System (DBMS)** is a desktop-based application
 
 ### 🧭 Main Dashboard
 
-- Access to key system modules: Flights, Bookings, Seats, Payments, Passengers, and Users  
+- Access to key system modules: Flights, Bookings, Seats, Payments, Passengers, Airports, and Users  
   📷 *Figure 13: Interface "Main Window"*
 
 ---
@@ -103,6 +106,22 @@ The **Airline Database Management System (DBMS)** is a desktop-based application
   - Email and phone  
 📷 *Figure 25–26: Manage/Edit Passengers*
 
+---
+
+## 🛫 Airport-Flight Relationship Management
+
+This module allows system administrators to manage the connections between flights and the airports they operate from.
+
+- View existing airport-flight links
+- Set or update:
+  - Departure Airport
+  - Arrival Airport
+  - Associated Flight
+
+📷 *Figure 27: Interface "Manage Airport-Flight Relationships"*  
+📷 *Figure 28: Interface "Add/Edit Airport-Flight Relationship"*
+
+---
 
 ## ⚙️ Technical Specifications
 
@@ -113,5 +132,3 @@ The **Airline Database Management System (DBMS)** is a desktop-based application
 | 🗃 Database           | Microsoft Access (.accdb via pyodbc) |
 | 📦 Key Libraries      | `tkinter`, `PyQt5`, `pyodbc`, `datetime`, `os` |
 | 🖥️ System Type        | Desktop-based Database Management System |
-
-
