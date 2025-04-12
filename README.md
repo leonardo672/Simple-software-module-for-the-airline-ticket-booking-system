@@ -51,6 +51,18 @@ The **Airline Database Management System (DBMS)** is a desktop-based application
 
 ---
 
+## 👤 Users Management
+
+- Store passenger details:
+  - Name, surname
+  - Email
+  - Birthdate
+
+### Interface "Manage/Edit Passengers"
+  <img src="https://github.com/user-attachments/assets/77fa196c-938d-4c84-9420-b2c3318ec9b2" alt="Interface Main Window" width="600"/>
+  
+  <img src="https://github.com/user-attachments/assets/ecdc2fca-9bcc-4fa4-a39f-4cb9dabc49cc" alt="Interface Main Window" width="600"/>
+
 ## ✈️ Flight Management
 
 - Flight listing with:
