@@ -1,105 +1,135 @@
-# Airline Ticket Booking System
-
-![Python](https://img.shields.io/badge/Python-3.11-blue)
-![Tkinter](https://img.shields.io/badge/GUI-Tkinter%2FPyQt5-green)
-![Database](https://img.shields.io/badge/Database-MS_Access-0078D7)
-
 # ✈️ Airline Booking System
 
-The **Airline Booking System** is a comprehensive platform designed to streamline flight reservations, passenger management, and payment processing. With a secure login system and powerful administrative tools, the system offers a user-friendly interface for both end-users and airline staff.
+The **Airline Booking System** is a desktop-based application built with Python 3.11, combining **Tkinter** and **PyQt5** for a rich GUI experience. It enables flight booking, user registration, payment processing, and administrative control over core airline operations.
+
+---
 
 ## 🔐 Authentication & User Management
 
-### Login
-- **Figure 8** – User login screen  
-  Enables secure access to the system using verified credentials.
+### 🧍‍♂️ Login
+<img src="images/login.png" alt="Login Screen" width="600"/>
 
-### Invalid Login
-- **Figure 9** – Invalid login attempt  
-  Displays an error message when credentials are incorrect.
+Secure login interface for registered users.
 
-### Registration
-- **Figure 10** – New user registration  
-  Allows new users to create an account with required personal information.
+---
 
-### Successful Registration
-- **Figure 11** – Registration success confirmation  
-  Notifies users that their account has been successfully created.
+### ❌ Invalid Login
+<img src="images/invalid_login.png" alt="Invalid Login" width="600"/>
 
-### Welcome Screen
-- **Figure 12** – Personalized welcome message  
-  Displays a greeting to the authenticated user.
+Error prompt for invalid credentials.
 
-## 🧭 Main Dashboard
+---
 
-### Main Window
-- **Figure 13** – Central control panel  
-  Provides access to key administrative modules.
+### 📝 Registration
+<img src="images/register.png" alt="User Registration" width="600"/>
 
-## 🛠️ Administrative Interfaces
+User sign-up form with data validation.
+
+---
+
+### ✅ Registration Success
+<img src="images/registration_success.png" alt="Registration Successful" width="600"/>
+
+Success message after account creation.
+
+---
+
+### 👋 Welcome Screen
+<img src="images/welcome.png" alt="Welcome Message" width="600"/>
+
+Personalized dashboard welcome after login.
+
+---
+
+## 🧭 Admin Dashboard
+
+### 📊 Main Admin Panel
+<img src="images/main_dashboard.png" alt="Main Dashboard" width="600"/>
+
+Hub for managing flights, bookings, seats, payments, and passengers.
+
+---
+
+## 🛠️ Core Functional Modules
 
 ### ✈️ Flight Management
-- **Figure 14** – Manage Flights  
-  Add, update, or delete flight records including destinations, times, and aircraft.
+- **Manage Flights**
+  <img src="images/manage_flights.png" alt="Manage Flights" width="600"/>
 
-- **Figure 14 (Edit)** – Modify Flight Information  
-  Edit existing flight details with real-time data integrity.
+- **Edit Flight Info**
+  <img src="images/edit_flight.png" alt="Edit Flight" width="600"/>
 
-- **Figure 15** – Application Data Overview  
-  Centralized data hub for reviewing flight schedules and statuses.
+- **Flight Data Overview**
+  <img src="images/flight_data_overview.png" alt="Flight Data Overview" width="600"/>
+
+---
 
 ### 📅 Booking Management
-- **Figure 16** – Manage Bookings  
-  Track and manage individual or group reservations.
+- **Manage Bookings**
+  <img src="images/manage_bookings.png" alt="Manage Bookings" width="600"/>
 
-- **Figure 17** – Edit Bookings  
-  Update passenger reservations, flight assignments, or ticket status.
+- **Edit Bookings**
+  <img src="images/edit_booking.png" alt="Edit Booking" width="600"/>
 
-- **Figure 18** – Booking Data Center  
-  Comprehensive view of all booking records in the system.
+- **Booking Summary**
+  <img src="images/booking_data.png" alt="Booking Data" width="600"/>
 
-### 💺 Seat Management
-- **Figure 19** – Manage Aircraft Seats  
-  Define and manage seat layouts and availability per aircraft.
+---
 
-- **Figure 20** – Edit Seat Allocations  
-  Update seat assignments based on passenger bookings.
+### 💺 Seat Configuration
+- **Aircraft Seating**
+  <img src="images/manage_seats.png" alt="Manage Seats" width="600"/>
 
-- **Figure 21** – Seat Configuration Data  
-  Overview of aircraft seating plans and configurations.
+- **Edit Seats**
+  <img src="images/edit_seats.png" alt="Edit Seats" width="600"/>
 
-### 💳 Payment Management
-- **Figure 22** – Manage Payments  
-  View and process customer payments and refunds.
+- **Seating Layout**
+  <img src="images/seat_data.png" alt="Seat Data" width="600"/>
 
-- **Figure 23** – Edit Payment Records  
-  Modify payment details in case of transaction corrections.
+---
 
-- **Figure 24** – Financial Overview  
-  Analytical view of payment histories and transactions.
+### 💳 Payment Processing
+- **Payment Manager**
+  <img src="images/manage_payments.png" alt="Manage Payments" width="600"/>
+
+- **Update Transactions**
+  <img src="images/edit_payments.png" alt="Edit Payments" width="600"/>
+
+- **Payment Data Summary**
+  <img src="images/payment_data.png" alt="Payment Data" width="600"/>
+
+---
 
 ### 🧍 Passenger Management
-- **Figure 25** – Manage Passengers  
-  Access and update individual passenger profiles and travel histories.
+- **Passenger Records**
+  <img src="images/manage_passengers.png" alt="Manage Passengers" width="600"/>
+
+View, add, and update passenger information.
 
 ---
 
-## 📌 Features Summary
+## 🌟 Key Features
 
-- User registration & authentication  
-- Admin dashboard for full CRUD operations  
-- Real-time seat and flight availability  
-- Integrated booking and payment modules  
-- Intuitive UI with error handling
-
-## 🚀 Technologies Used
-
-- **Frontend:** Tkinter (Python GUI)  
-- **Backend:** SQLite / MySQL  
-- **Language:** Python  
-- **Modules:** `tkinter`, `sqlite3`, `datetime`, `os`, and others
+- 🔒 User Authentication (Login/Register)
+- ✈️ Real-time Flight & Seat Management
+- 💺 Dynamic Booking and Seat Allocation
+- 💳 Integrated Payment Handling
+- 📊 Admin Dashboard with Edit Capabilities
+- 🎨 GUI built with **Tkinter** and **PyQt5**
+- 🗃 Database powered by **Microsoft Access (.accdb)**
 
 ---
 
-## 📂 Project Structure
+## ⚙️ Tech Stack
+
+| Layer               | Technology            |
+|---------------------|------------------------|
+| 👨‍💻 Programming     | Python 3.11             |
+| 🖼 GUI Frameworks     | Tkinter, PyQt5          |
+| 🗂 Database          | Microsoft Access (.accdb) |
+| 🧩 Modules Used     | `pyodbc`, `tkinter`, `PyQt5`, `datetime`, `os` |
+
+
+
+
 
