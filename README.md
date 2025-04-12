@@ -7,6 +7,9 @@ The **Airline Database Management System (DBMS)** is a desktop-based application
 - **User Authentication**
   - Login and registration interfaces with error handling
   - Welcome messages on successful login
+- **Main Interface**
+  - Central hub to access all modules:
+    Access to key system modules: Users, Flights, Bookings, Seats, Payments, Passengers, Airports.   
 - **Flight Management**
   - View, add, and edit flight details
   - Manage departure/arrival times, airport codes, seat capacity
@@ -24,8 +27,6 @@ The **Airline Database Management System (DBMS)** is a desktop-based application
 - **Airport-Flight Relationship Management**
   - Manage associations between flights and airports
   - Link departure and arrival airport codes to flights
-- **Admin Dashboard**
-  - Centralized control panel for managing all system modules
 
 ## 🖥️ Interface Overview
 
@@ -45,10 +46,11 @@ The **Airline Database Management System (DBMS)** is a desktop-based application
 - **Successful Login** – Welcome message for the user  
   📷 *Figure 12: Interface "Welcome User"*
 
-### 🧭 Main Dashboard
+### 🧭 Main Interface
 
-- Access to key system modules: Flights, Bookings, Seats, Payments, Passengers, Airports, and Users  
-  📷 *Figure 13: Interface "Main Window"*
+  <img src="![Uploading image.png…]()
+" alt="Login Screen" width="600"/>
+  📷 *Interface "Main Window"*
 
 ---
 
