@@ -38,13 +38,13 @@ The **Airline Database Management System (DBMS)** is a desktop-based application
 <img src="https://github.com/user-attachments/assets/b49dcdc1-e8e0-44ad-a912-ef1292a4f755" alt="Interface Main Window" width="300"/>
 
 - **Registration Screen** – Sign up as a new user  
-<img src="https://github.com/user-attachments/assets/f9deabe7-53f6-4a7b-91ca-f6021b5b8dce" alt="Interface Main Window" width="300"/>
+<img src="https://github.com/user-attachments/assets/97c502fa-2588-4bc3-9234-0b83ac967465" alt="Interface Main Window" width="300"/>
 
 - **Registration Success** – Confirmation message  
-<img src="https://github.com/user-attachments/assets/f9deabe7-53f6-4a7b-91ca-f6021b5b8dce" alt="Interface Main Window" width="300"/>
+<img src="https://github.com/user-attachments/assets/dd737052-7b9f-4925-8c74-d347281229a0" alt="Interface Main Window" width="300"/>
 
 - **Successful Login** – Welcome message for the user  
-<img src="https://github.com/user-attachments/assets/f9deabe7-53f6-4a7b-91ca-f6021b5b8dce" alt="Interface Main Window" width="300"/>
+<img src="https://github.com/user-attachments/assets/490a47fc-d76e-4641-97ad-6b198afc2933" alt="Interface Main Window" width="300"/>
 
 ### 🧭 Main Interface
 <img src="https://github.com/user-attachments/assets/30690524-84ee-493b-bf9d-d14e200bf164" alt="Interface Main Window" width="600"/>
