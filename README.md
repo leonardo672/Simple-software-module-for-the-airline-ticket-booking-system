@@ -93,8 +93,14 @@ The **Airline Database Management System (DBMS)** is a desktop-based application
 - Control seat assignments per flight:
   - Seat ID
   - Seat number
-  - Class (Economy, Business, First)  
-📷 *Figure 19–21: Manage/Edit/Add Seats*
+  - Class (Economy, Business, First)
+    
+### Interface "Manage/Edit/Add Seats"
+  <img src="https://github.com/user-attachments/assets/39fb0d52-80bf-4af5-bf5b-9b80701befc0" alt="Interface Main Window" width="600"/>
+  
+  <img src="https://github.com/user-attachments/assets/0a86915c-e600-4147-933d-0351e8707e0b" alt="Interface Main Window" width="600"/>
+
+  <img src="https://github.com/user-attachments/assets/0e2996b2-02fe-4ccf-94b3-2d5f33ca3777" alt="Interface Main Window" width="600"/>
 
 ---
 
